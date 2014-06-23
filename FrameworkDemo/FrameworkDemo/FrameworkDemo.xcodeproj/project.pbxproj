@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		826FAC0B1949838000F7FB6D /* Dylib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826FAC0A1949838000F7FB6D /* Dylib.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		826FAC0D1949B83C00F7FB6D /* Dylib.framework in Resources */ = {isa = PBXBuildFile; fileRef = 826FAC0A1949838000F7FB6D /* Dylib.framework */; };
+		823410D5194B17080098A0BF /* Dylib.framework in Resources */ = {isa = PBXBuildFile; fileRef = 826FAC0A1949838000F7FB6D /* Dylib.framework */; };
 		826FAC111949C97400F7FB6D /* LLImageLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 826FAC101949C97400F7FB6D /* LLImageLogger.m */; };
 		82A7F6951945683B005A4AFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A7F6941945683B005A4AFF /* main.m */; };
 		82A7F6981945683B005A4AFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A7F6971945683B005A4AFF /* AppDelegate.m */; };
@@ -58,7 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				826FAC0B1949838000F7FB6D /* Dylib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				826FAC0D1949B83C00F7FB6D /* Dylib.framework in Resources */,
+				823410D5194B17080098A0BF /* Dylib.framework in Resources */,
 				82A7F69E1945683B005A4AFF /* Main.storyboard in Resources */,
 				82A7F6A01945683B005A4AFF /* Images.xcassets in Resources */,
 			);

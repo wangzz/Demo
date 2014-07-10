@@ -38,6 +38,7 @@ static void *libHandle = NULL;
 #pragma mark - Button Action
 - (IBAction)onTriggerButtonAction:(id)sender
 {
+    // Get the Person class (required with runtime-loaded libraries).
     Class rootClass = NSClassFromString(@"Person");
     if (rootClass) {
         id object = [[rootClass alloc] init];

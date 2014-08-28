@@ -39,7 +39,8 @@
     //Translate
     
     //随意的原始矩阵
-    CATransform3D matrixOrigin = CATransform3DMakeRotation(1, 4, 3, 6);
+    CATransform3D matrixOrigin = CATransform3DMakeTranslation(4, 3, 6);
+    [self logTransform:matrixOrigin];
     
     CGFloat x = 2, y = 3, z = 4; //位移向量（2,3,4）
     
@@ -59,9 +60,10 @@
     //Scale
     
     //随意的原始矩阵
-    CATransform3D matrixOrigin = CATransform3DMakeRotation(1, 4, 3, 6);
+    CATransform3D matrixOrigin = CATransform3DMakeScale(4, 3, 2);
+    [self logTransform:matrixOrigin];
     
-    CGFloat x = 2, y = 3, z = 4; //缩放倍数（2,3,4）
+    CGFloat x = 1, y = 2, z = 4; //缩放倍数（2,3,4）
     
     //系统方法计算变换矩阵
     CATransform3D matrixSystem = CATransform3DScale(matrixOrigin, x, y, z);
@@ -80,6 +82,7 @@
     
     //随意的原始矩阵
     CATransform3D matrixOrigin = CATransform3DMakeRotation(1, 4, 3, 6);
+    [self logTransform:matrixOrigin];
     
     CGFloat x = 2, y = 3, z = 4; //旋转向量（2,3,4）
     CGFloat angle = 30.0f * M_PI / 180.0f; //旋转角度30°，计算对应的弧度
